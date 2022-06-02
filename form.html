@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="top">
+                <a href="index.html"><img src="img/back.svg"></a>
+            </div>
+            <fieldset><legend>Введите Ваши данные</legend>
+            <input class="input" placeholder="Имя">
+            <input class="input" placeholder="Фамилия">
+            </fieldset>
+            <label class="gender">Ваш пол</label>
+            <input class="genderinput" id="male" name="gander" type="radio" value="male"><label for="male">М</label>
+            <input class="genderinput" id="female" name="gander" type="radio" value="female"><label for="female">Ж</label>
+            <div><input name="age" id="age" type="checkbox" value="18"><label for="18">Мне есть 18</label></div>
+            <label for="subject">Выберите курс</label>
+            <select name="subject" id="subject">
+                <option value="Front-end">Front-end разработка</option>
+                <option value="Webdesign">Web design</option>
+                <option value="graphicdesign">Графический дизайн</option>
+            </select>
+            <textarea placeholder="Дополнительная информация"></textarea>
+            <div class="button">
+                <button type="submit">Отправить заявку</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
